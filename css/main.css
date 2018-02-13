@@ -4,6 +4,7 @@ body {
 	}
 
 p {
+	position: absolute;
     font-family: "Helvetica";
     font-size: 64px;
     }
