@@ -4,7 +4,7 @@ body {
 	}
 
 p {
-	position: absolute;
+	position: fixed;
     font-family: "Helvetica";
     font-size: 64px;
     }
