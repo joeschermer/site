@@ -5,7 +5,7 @@ body {
 
 .no-copy p {
 	font-family: monospace;
-	font-size: 2vmax;
+	font-size: 0.1vmin;
 	white-space: pre-wrap;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
