@@ -4,7 +4,7 @@ body {
 	}
 
 .no-copy p {
-	font-size: 1vw;
+	font-size: 4vmax;
 	font-family: monospace;
 	white-space: pre-wrap;
 	position: fixed;
