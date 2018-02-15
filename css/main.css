@@ -1,11 +1,11 @@
 body {
 	color: red;
 	background-color: black;
+	font-size: 20vw;
+	font-family: monospace;
 	}
 
 .no-copy p {
-	font-size: 20vw;
-	font-family: monospace;
 	white-space: pre-wrap;
 	position: fixed;
 	-webkit-touch-callout: none;
