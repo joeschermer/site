@@ -13,3 +13,10 @@ body {
 	-ms-user-select: none;      /* IE 10+ */
 	user-select: none;          /* Likely future */     
 }
+
+.footer {
+	position: fixed;
+	font-family: monospace;
+	float: left;
+	text-align: center;
+}
