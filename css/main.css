@@ -5,6 +5,7 @@ body {
 
 .no-copy p {
 	font-family: monospace;
+	font-size: 2vmax;
 	white-space: pre-wrap;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
@@ -16,7 +17,6 @@ body {
 
 .footer {
 	position: fixed;
-	font-family: monospace;
 	float: left;
 	text-align: center;
 }
