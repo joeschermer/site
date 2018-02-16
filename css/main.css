@@ -1,31 +1,40 @@
 body {
-	color: red;
+	color: #ff0000;
 	background-color: black;
 	font-family: monospace;
 }
 
 h1 {
-	font-size: 10vw;
+	font-size: 10vmax;
 	text-decoration: underline;
 }
 
-.no-copy p {
-	position: absolute;
-	height: 100vh;
-	width: 100vw;
+p {
+  text-align: center;
+  width: 100vmax;
+  font-size: 2vmin;
 	white-space: pre-wrap;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
 	-khtml-user-select: none;
 	-moz-user-select: none;     /* Firefox all */
 	-ms-user-select: none;      /* IE 10+ */
-	user-select: none;          /* Likely future */     
+	user-select: none;          /* Likely future */   
 }
 
 .footer {
-  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
   text-align: center;
+  padding: 0.1em;
+  opacity: 0.5;
+  
+  -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  
 }
