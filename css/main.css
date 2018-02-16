@@ -4,6 +4,10 @@ body {
 	font-family: monospace;
 }
 
+header {
+	font-size: 100vw;
+}
+
 .no-copy p {
 	white-space: pre-wrap;
 	-webkit-touch-callout: none;
