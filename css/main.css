@@ -6,7 +6,6 @@ body {
 
 .no-copy p {
 	white-space: pre-wrap;
-	position: fixed;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;  /* Chrome all / Safari all */
 	-khtml-user-select: none;
