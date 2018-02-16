@@ -1,6 +1,6 @@
 body {
 	color: #ff0000;
-	background-color: black;
+	background-color: #000000;
 	font-family: monospace;
 }
 
@@ -10,7 +10,6 @@ h1 {
 }
 
 p {
-  text-align: center;
   width: 100vmax;
   font-size: 2vmin;
 	white-space: pre-wrap;
