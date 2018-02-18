@@ -1,7 +1,8 @@
 body {
-	color: #f00;
-	background-color: #000;
+	color: #fff;
 	font-family: monospace;
+  background: linear-gradient(to left, blue, green);
+}
 }
 
 h1 {
