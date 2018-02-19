@@ -1,9 +1,6 @@
 body {
 	color: #fff;
 	font-family: "Helvetica";
-  letter-spacing: 0.2em;
-  text-shadow: 2px 2px black;
-  text-transform: uppercase;
   background: linear-gradient(to top left, blue, green);
   
 	  -webkit-touch-callout: none;
@@ -17,6 +14,9 @@ body {
 
 .footer {
   text-align: center;
+letter-spacing: 0.2em;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
   position: fixed;
   right: 0;
   bottom: 0;
