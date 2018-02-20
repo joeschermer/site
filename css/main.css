@@ -1,21 +1,22 @@
 body {
 	color: #fff;
 	font-family: "Helvetica";
+  letter-spacing: 0.2em;
+  text-shadow: 2px 2px black;
+  text-transform: uppercase;
   background: linear-gradient(160deg, black, blue 30%, green);
-	-webkit-touch-callout: none;
+  
+	  -webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	
 }
 
 .footer {
   text-align: center;
-letter-spacing: 0.2em;
-  text-shadow: 2px 2px black;
-  text-transform: uppercase;
-  position: relative;
-margin: auto;
+  margin: auto;
   opacity: 0.6;
 }
