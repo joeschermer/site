@@ -16,9 +16,6 @@ letter-spacing: 0.2em;
   text-shadow: 2px 2px black;
   text-transform: uppercase;
   position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
 margin: auto;
   opacity: 0.6;
 }
