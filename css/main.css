@@ -1,8 +1,6 @@
 body {
 	color: #fff;
 	font-family: "Helvetica";
-  letter-spacing: 0.2em;
-  text-shadow: 2px 2px black;
   text-transform: uppercase;
   background: linear-gradient(160deg, black, blue 30%, green);
   
@@ -17,10 +15,9 @@ body {
 
 .footer {
   text-align: center;
-  position: absolute;
-  width:100%;
-  height:1em;
-  bottom:0;
+letter-spacing: 0.2em;
+  text-shadow: 2px 2px black;
+  position: relative;
   margin: auto;
   opacity: 0.6;
 }
