@@ -4,22 +4,19 @@ html {
 
 body {
 	color: #fff;
-	background: linear-gradient(160deg, black, blue, green);
 	font-family: "Helvetica Neue";
   text-transform: uppercase;
   margin: auto;
   position: relative;
-
 
 }
 
 .footer {
   text-align: center;
   
-letter-spacing: 0.8vh;
+letter-spacing: 0.6vw;
 
   font-weight: 200;
-  /* text-shadow: 1.5px 1.5px black; */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -29,7 +26,7 @@ letter-spacing: 0.8vh;
   margin: auto;
   
   min-height: 4vh;
-  max-height: 8vh;
+  max-height: 10vh;
   
   	  -webkit-touch-callout: none;
 	-webkit-user-select: none;
