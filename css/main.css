@@ -9,11 +9,6 @@ body {
   margin: auto;
   position: relative;
 
-padding-top: auto;
-
-  top: 50%;
-  transform: translateY(-50%);
-
 }
 
 .footer {
@@ -24,21 +19,19 @@ letter-spacing: 0.6vw;
   font-weight: 200;
   
   position: absolute;
+  padding-top: auto;
   
   
   bottom: 0;
   left: 0;
   right: 0;
   
-z-index: 10; /** this value affects the overlapping **/
-  
   opacity: 0.5;
   
 
   margin: auto;
   
-  min-height: 4vh;
-  max-height: 10vh;
+  min-height: 44px;
   
   	  -webkit-touch-callout: none;
 	-webkit-user-select: none;
