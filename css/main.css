@@ -1,6 +1,6 @@
 body {
 	color: #fff;
-	background: linear-gradient(160deg, black, blue 30%, green);
+	background: linear-gradient(160deg, black, blue, green);
 	font-family: "Helvetica Neue";
   text-transform: uppercase;
   margin: auto;
