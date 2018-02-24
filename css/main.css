@@ -16,7 +16,7 @@ body {
 .footer {
   text-align: center;
   
-letter-spacing: 0.4em;
+letter-spacing: 1vh;
   font-weight: 200;
   /* text-shadow: 1.5px 1.5px black; */
   position: absolute;
