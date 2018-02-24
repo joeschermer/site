@@ -9,6 +9,11 @@ body {
   margin: auto;
   position: relative;
 
+padding-top: auto;
+
+  top: 50%;
+  transform: translateY(-50%);
+
 }
 
 .footer {
@@ -46,4 +51,5 @@ letter-spacing: 0.6vw;
 
   padding-right: 1vw; /* 3 */
   padding-left:  1vw; /* 3 */
+  
 }
