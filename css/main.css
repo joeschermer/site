@@ -9,14 +9,15 @@ body {
   text-transform: uppercase;
   margin: auto;
   position: relative;
-  max-width: 100vh;
+
 
 }
 
 .footer {
   text-align: center;
   
-letter-spacing: 1vh;
+letter-spacing: 0.8vh;
+
   font-weight: 200;
   /* text-shadow: 1.5px 1.5px black; */
   position: absolute;
@@ -42,7 +43,7 @@ letter-spacing: 1vh;
   margin-right: auto; /* 1 */
   margin-left:  auto; /* 1 */
 
-  /* max-width: 960px; /* 2 */
+  	max-width: 100vh;
 	min-height: 96vh;
 
   padding-right: 1vw; /* 3 */
