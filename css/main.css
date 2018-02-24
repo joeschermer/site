@@ -9,6 +9,7 @@ body {
   margin: auto;
   position: relative;
 
+
 }
 
 .footer {
@@ -19,10 +20,11 @@ letter-spacing: 0.6vw;
   font-weight: 200;
   
   position: absolute;
-  padding-top: auto;
+  padding: auto;
   
   
-  bottom: 0;
+  bottom: 44px;
+  
   left: 0;
   right: 0;
   
@@ -31,7 +33,7 @@ letter-spacing: 0.6vw;
 
   margin: auto;
   
-  min-height: 44px;
+  max-height: 8vh;
   
   	  -webkit-touch-callout: none;
 	-webkit-user-select: none;
