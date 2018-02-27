@@ -4,6 +4,7 @@ html {
 
 h {
   font-weight: 800;
+  text-shadow: -0.08em 0.04em .08em grey;
 }
 
 .wrapper {
@@ -32,6 +33,7 @@ header {
   margin: auto;
   padding: auto;
   column-count: 3;
+
   column-fill: auto;
   text-align: center;
 }
