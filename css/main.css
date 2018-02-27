@@ -47,6 +47,7 @@ body {
 footer {
   letter-spacing: 0.6vw;
   font-weight: 400; 
+  opacity: 0.8;
   
   position: absolute;
   bottom:0;
