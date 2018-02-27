@@ -4,7 +4,7 @@ html {
 
 h {
   font-weight: 800;
-  text-shadow: -0.08em 0.04em .08em grey;
+  text-shadow: 0.06em 0.02em 0.1em grey;
 }
 
 .wrapper {
