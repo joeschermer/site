@@ -8,20 +8,19 @@ h {
 }
 
 .wrapper {
-  font-family: helvetica;
+  font-family: Helvetica;
   font-size: 100%;
   text-align: center;
   
   margin-right: auto; /* 1 */
   margin-left:  auto; /* 1 */
   max-width: 100vh;
-	min-height: 96vh;
+  min-height: 96vh;
   padding-right: 1vw; /* 3 */
   padding-left:  1vw; /* 3 */
 }
 
 header {
-
   letter-spacing: 1vw;
   font-style: italic;
   margin: auto;
@@ -30,6 +29,8 @@ header {
 }
 
 .subheader{
+  font-size: 125%;
+	
   margin: auto;
   padding: auto;
   column-count: 3;
