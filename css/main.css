@@ -32,7 +32,6 @@ header {
   margin: auto;
   padding: auto;
   column-count: 3;
-  column-width: 33%;
   column-fill: auto;
   text-align: center;
 }
