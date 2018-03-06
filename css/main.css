@@ -25,9 +25,10 @@ html {
   height: 96vh;
   max-width: 100vmax;
   font-size: 16px;
+  /*
   color: white;
   background: black;
-
+  */
 }
 
 body {
@@ -67,9 +68,9 @@ section {
     -moz-column-gap: 1em; /* Firefox */
 	 column-gap: 1em;
 	
--webkit-column-rule: 2px solid; /* Chrome, Safari, Opera */
-   -moz-column-rule: 2px solid; /* Firefox */
-	column-rule: 2px solid;
+-webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
+   -moz-column-rule: 1px solid; /* Firefox */
+	column-rule: 1px solid;
 }
 
 p {
@@ -87,18 +88,21 @@ header {
 	font-style: italic;
 	max-width: 100vmax;
   	font-weight: 800;
-	/*
+  
   text-shadow: -0.10em 0.04em 0.1em grey;
-  */
+}
+
+hr {
+  color: black;
+  background-color: black;
 }
 
 footer {
-
+  font-weight: 400;
 }
 
 /*  COPYRIGHT  */
 .copyright {
   letter-spacing: 0.6vw;
 	font-weight: 200; 
- /* opacity: 0.5; */
 }
