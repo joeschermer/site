@@ -25,6 +25,9 @@ html {
   height: 100%;
   max-width: 100vmax;
   font-size: 16px;
+  color: white;
+  background: black;
+
 }
 
 body {
@@ -34,8 +37,8 @@ body {
   flex-direction: column;
   
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 0.5em;
   margin-top: 1em;
 }
@@ -45,6 +48,7 @@ section {
   flex: 1 0 auto;
   max-width: inherit;
 	text-align: justify;
+  font-weight: 400;
 
 /*	COLUMNS	*/
   -webkit-columns: 3 12em; /* Chrome, Safari, Opera */
@@ -59,9 +63,9 @@ section {
      -moz-column-width: 12em; /* Firefox */
           column-width: 12em;
           
- -webkit-column-gap: 2vw; /* Chrome, Safari, Opera */
-	-moz-column-gap: 2vw; /* Firefox */
-		 column-gap: 2vw;
+ -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
+	-moz-column-gap: 1em; /* Firefox */
+		 column-gap: 1em;
 }
 
 p {
@@ -79,7 +83,9 @@ header {
 	font-style: italic;
 	max-width: 100vmax;
   	font-weight: 800;
-	text-shadow: -0.10em 0.04em 0.1em grey;
+	/*
+  text-shadow: -0.10em 0.04em 0.1em grey;
+  */
 }
 
 footer {
@@ -89,6 +95,6 @@ footer {
 /*  COPYRIGHT  */
 .copyright {
   letter-spacing: 0.6vw;
-	font-weight: 400; 
-  opacity: 0.5;
+	font-weight: 200; 
+ /* opacity: 0.5; */
 }
