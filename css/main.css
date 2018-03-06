@@ -34,8 +34,8 @@ body {
   flex-direction: column;
   
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
   margin-bottom: 0.5em;
   margin-top: 1em;
 }
@@ -59,9 +59,9 @@ section {
      -moz-column-width: 12em; /* Firefox */
           column-width: 12em;
           
- -webkit-column-gap: 3vw; /* Chrome, Safari, Opera */
-	-moz-column-gap: 3vw; /* Firefox */
-		 column-gap: 3vw;
+ -webkit-column-gap: 2vw; /* Chrome, Safari, Opera */
+	-moz-column-gap: 2vw; /* Firefox */
+		 column-gap: 2vw;
 }
 
 p {
