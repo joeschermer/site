@@ -1,30 +1,97 @@
-<html lang="en-US">
-  <head>
-  <meta charset="UTF-8"/>
-    <title>schermer.info</title>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-<base target="_blank"/>
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-  </head>
+/*	MEDIA QUERIES	*/
 
-<header>
-  <h><a href="." target="_self">SCHERMER.INFO</a></h>
-  <hr>
-  </header>
+  @media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); }
+  }
+
+/*	DISABLE LINK DECORATION	*/
+a:link {color: inherit; text-decoration: none;}
+a:visited {color: inherit; text-decoration: none;}
+a:hover {color: inherit; text-decoration: none;}
+a:active {color: inherit; text-decoration: none;}
+
+* {
+  /*	BOX SIZING	*/
+    box-sizing: border-box;
+/*	DISABLE TEXT SELECTION	*/
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+html {
+  height: 100%;
+  max-width: 100vmax;
+  font-size: 16px;
+
+}
+
+body {
+  min-height: 100%;
   
-  <!-- BEGIN MAIN CONTENT -->
-<section>
-  <p>Morbi massa tortor, lobortis at ante nec, ultricies iaculis lorem. Nulla quis mattis lorem, eget maximus lacus. Maecenas at sapien vel diam scelerisque maximus sed ac dolor. Donec porta lacus id nisi mattis congue. Curabitur vehicula mattis magna, a porttitor felis facilisis a. Nulla volutpat pellentesque nunc, in tincidunt mi feugiat venenatis. Pellentesque volutpat finibus pretium. Aenean nec velit nibh. Ut ex erat, sodales id massa eu, efficitur sodales lectus. Curabitur ac neque eget quam aliquam efficitur ac vulputate augue. Fusce in orci vel massa viverra fermentum nec ac eros. Sed eu ante non lorem dignissim lacinia eget nec orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet nisi at elit eleifend, vel rutrum enim convallis. In eu pulvinar lectus.
-    
-Duis erat ante, accumsan non sem at, facilisis hendrerit nulla. Nullam venenatis, neque ac blandit venenatis, lorem nisl pharetra erat, et pulvinar sem ligula id felis. Pellentesque eu neque ac nibh finibus accumsan. Ut ultricies fringilla orci eu sodales. Sed facilisis condimentum mauris, sit amet sollicitudin sem. Donec semper tristique tellus, ut tincidunt sem tempus id. Praesent nec venenatis sem, sed porttitor mauris. Sed porttitor ultricies nunc a bibendum. Cras scelerisque facilisis orci, dictum pharetra metus aliquet id. Vestibulum urna ante, vulputate ut metus ac, aliquam porta est. Sed eleifend maximus risus nec ullamcorper. Cras a sollicitudin felis.</p>
-</section>
-  <!-- END MAIN CONTENT -->
+  display: flex;
+  flex-direction: column;
   
-  <footer>
-<hr>
-<div class="copyright">&copy; 2018 JOSEPH SCHERMER</div>
-</footer>
-</html>
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+section {
+  /* flex: 1; would be enough but it looks bad in IE */
+  flex: 1 0 auto;
+  max-width: inherit;
+	text-align: justify;
+
+/*	COLUMNS	*/
+  -webkit-columns: 3 12em; /* Chrome, Safari, Opera */
+     -moz-columns: 3 12em; /* Firefox */
+          columns: 3 12em;
+
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+     -moz-column-count: 3; /* Firefox */
+          column-count: 3;
+          
+  -webkit-column-width: 12em; /* Chrome, Safari, Opera */
+     -moz-column-width: 12em; /* Firefox */
+          column-width: 12em;
+          
+ -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
+	-moz-column-gap: 1em; /* Firefox */
+		 column-gap: 1em;
+}
+
+p {
+    line-height: 1.2em;
+  margin: auto;
+}
+  
+header, footer {
+  text-align: center;
+}
+
+header {
+  font-size: 1.5em;
+	letter-spacing: 1vw;
+	font-style: italic;
+	max-width: 100vmax;
+  	font-weight: 800;
+	/*
+  text-shadow: -0.10em 0.04em 0.1em grey;
+  */
+}
+
+footer {
+
+}
+
+/*  COPYRIGHT  */
+.copyright {
+  letter-spacing: 0.6vw;
+	font-weight: 400; 
+  opacity: 0.5;
+}
