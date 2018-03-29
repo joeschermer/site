@@ -22,7 +22,7 @@ a:active {color: inherit; text-decoration: none;}
 }
 
 html {
-  height: 96vh;
+  height: 100%;
   max-width: 100vmax;
   font-size: 16px;
   /*
@@ -40,8 +40,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   margin-left: 1em;
   margin-right: 1em;
-  margin-bottom: 0.5em;
-  margin-top: 1em;
 }
 
 section {
@@ -68,18 +66,26 @@ section {
     -moz-column-gap: 1em; /* Firefox */
 	 column-gap: 1em;
 	
--webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
-   -moz-column-rule: 1px solid; /* Firefox */
-	column-rule: 1px solid;
+  /* COLUMN RULE */
+ /* -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
+ /*  -moz-column-rule: 1px solid; /* Firefox */
+/*	column-rule: 1px solid; */
+}
+
+img {
+  width: 100%;
 }
 
 p {
     line-height: 1.2em;
   margin: auto;
+  column-break-after: always;
 }
   
 header, footer {
   text-align: center;
+        margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 header {
@@ -90,15 +96,14 @@ header {
   	font-weight: 800;
   
   text-shadow: -0.10em 0.04em 0.1em grey;
+
 }
+
+footer {}
 
 hr {
   color: black;
   background-color: black;
-}
-
-footer {
-  font-weight: 400;
 }
 
 /*  COPYRIGHT  */
