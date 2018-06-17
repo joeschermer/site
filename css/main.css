@@ -91,11 +91,11 @@ header, footer {
 header {
   font-size: 1.5em;
 	letter-spacing: 1vw;
-	font-style: italic;
+
 	max-width: 100vmax;
   	font-weight: 800;
   
-  text-shadow: -0.10em 0.04em 0.1em grey;
+/*  text-shadow: -0.10em 0.04em 0.1em grey; */
 
 }
 
