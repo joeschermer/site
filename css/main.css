@@ -91,6 +91,10 @@ img {
   padding-bottom: 0.5em;
 }
 
+h img {
+  width:80%;
+}
+
 p {
   display:inline-block;
   text-transform: uppercase;
@@ -117,15 +121,9 @@ header {
   	font-weight: 800;
 }
 
-footer {}
+footer {
 
-hr {
-
-}
-
-/*  COPYRIGHT  */
-.copyright {
-  font-weight: 200;
+    font-weight: 200;
   -webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -133,6 +131,15 @@ hr {
 	-ms-user-select: none;
 	user-select: none;
  /* letter-spacing: 0.6vw; */
+}
+
+hr {
+
+}
+
+/*  COPYRIGHT  */
+.copyright {
+
 
 }
 
