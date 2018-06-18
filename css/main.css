@@ -1,80 +1,142 @@
-<html lang="en-US">
-  <head>
-  <meta charset="UTF-8"/>
-<title>SCHERMER.INFO</title>
-<meta property="og:title" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://schermer.info/" />
-<meta property="og:image" content="https://schermer.info/orb.png" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-<base target="_blank"/>
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-  </head>
-  
-<!-- BEGIN MAIN CONTENT  -->
-  
-  <header>
+/*	MEDIA QUERIES	*/
 
-  <h><p style="color:red"><a href="http://www.tmz.com/2018/06/18/xxxtentacion-shot-dead-miami/"><img src="https://www.billboard.com/files/styles/article_main_image/public/media/xxxtentacion-press-photo-bw-2018-billboard-1548.jpg" style="width:75%;"/><br>xxxtentacion shot dead at 20
-    </p>
-    <br><a href="." target="_self">SCHERMER.INFO</a></h>
-  </header>
-<section>
-  
-  <div class="group">
-  <p><a href="https://qz.com/1294652/nigerias-world-cup-kit-has-sold-out-nike/"><img src="http://i.dailymail.co.uk/i/newpix/2018/06/01/11/4CCED8ED00000578-0-image-a-43_1527847532914.jpg"/>Nike world cup kit for nigeria national team sells out in 3 hours</a></p>
+  @media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); }
+  }
 
-  <p><a href="https://hypebeast.com/2018/6/nike-2018-fifa-world-cup-sustainable-kits">made of recycled plastic bottles</a></p>
+/*	DISABLE LINK DECORATION	*/
+a:link {color: inherit; text-decoration: none;}
+a:visited {color: inherit; text-decoration: none;}
+a:hover {color: inherit; text-decoration: none;}
+a:active {color: inherit; text-decoration: none;}
 
-  <p><a href="https://hypebeast.com/2018/6/nigeria-nike-2018-fifa-world-cup-kit-resell-price">reselling for 3x the price</a></p>
-  <hr>
-  </div>
-  
-  <div class="group">  
-  <p><a href="https://www.facebook.com/WhiteHouse/videos/1710505219037204/">video: trump shared "trailer" for singapore summit  with kim</a></p><hr>
-  </div>
-  
-  <div class="group">
-  <p><a href="https://www.bloomberg.com/news/articles/2018-06-16/-incredibles-2-sets-opening-day-animation-record-for-disney">incredibles 2 record-breaking debut</a></p><hr>
-  </div>
-  
-  <div class="group">
-    <p><a href="https://ssrn.com/abstract=3195066">Study: Tether used to manipulate crypto prices</a></p><hr>
-  </div>
-  
-  <div class="group">
-  <p><a href="https://www.mirror.co.uk/sport/football/news/mexicos-goal-celebration-against-germany-12730188">WORLD CUP FANS CAUSE EARTHQUAKE IN MEXICO</a></p><hr>
-  </div>
-  
-   <div class="group">
-  <p><a href="https://medium.com/@skydart/rose-colored-glasses-6be0594970ca">Chris hardwick ex-girlfriend alleges sexual, emotional abuse</a></p><hr></div>
- 
-  
-  <div class="group">
-    <p><a href="https://www.cnbc.com/2018/06/14/bitcoin-and-ethereum-are-not-securities-but-some-cryptocurrencies-may-be-sec-official-says.html">SEC says Bitcoin, ethereum not securities</a></p>
+p a:hover {text-decoration:underline;}
 
-    <p><a href="https://www.bis.org/publ/qtrpdf/r_qt1806.pdf#page=72">BIS: cryptocurrency "the alchemy of the age of innovation"</a></p>
-  <hr>
-  </div>
-  
-  <div class="group"><p><a href="https://twitter.com/elonmusk/status/1008013111058526209">Musk: I am actually a socialist</a></p>
-  <hr>
-  </div>
-  
-   <div class="group">
-  <p><a href="http://tripleampersand.org/alt-woke-manifesto/">#altwoke manifesto [still dumb imo]</a></p>
-      <p><a href="http://inhabit.global/">inhabit: INSTRUCTIONS FOR AUTONOMY [also dumb]</a></p><hr>
-  </div>
+::selection {
+  background: #000000;
+  color: #ffffff;
+}
+::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+}
 
-  <div class="group">
-    <p><a href="https://www.reuters.com/article/us-usa-trump-russia-manafort/judge-sends-trumps-former-campaign-chief-manafort-to-jail-idUSKBN1JB12X">manafort sent to jail until trial</a></p><hr></div>
-  
-    <div class="group">
-  <p><a href="http://thehill.com/homenews/media/392477-trump-heaps-praise-on-drudge-report">Trump: matt drudge is a "great gentleman"</a></p><hr></div>
+* {
+  /*	BOX SIZING	*/
+    box-sizing: border-box;
 
-</section>
-  <footer>
-    
-<div class="copyright">&copy; 2018 JOSEPH SCHERMER</div>
-</footer>
-</html>
+
+/*	DISABLE TEXT SELECTION	*/
+/*
+-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+*/
+}
+
+html {
+  height: 100vh;
+  max-width: 100vmax;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+   flex-flow: column wrap;
+  align-content: stretch;
+
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+section {
+  /* flex: 1; would be enough but it looks bad in IE */
+  flex: 1 0 auto;
+    justify-content: flex-end;
+  max-width: inherit;
+
+/*	COLUMNS	*/
+  -webkit-columns: 3 12em; /* Chrome, Safari, Opera */
+     -moz-columns: 3 12em; /* Firefox */
+          columns: 3 12em;
+
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+     -moz-column-count: 3; /* Firefox */
+          column-count: 3;
+          
+  -webkit-column-width: 12em; /* Chrome, Safari, Opera */
+     -moz-column-width: 12em; /* Firefox */
+          column-width: 12em;
+          
+ -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 1em; /* Firefox */
+	 column-gap: 1em;
+	
+  /* COLUMN RULE */
+ /* -webkit-column-rule: 1px solid; /* Chrome, Safari, Opera */
+ /*  -moz-column-rule: 1px solid; /* Firefox */
+/*	column-rule: 1px solid; */
+}
+
+img {
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+p {
+  display:inline-block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin: auto;
+    padding-top:0.25em;
+  padding-bottom:0.25em;
+    break-after: always;
+    -moz-column-break-after: always;
+    -webkit-column-break-after: always;
+  font-weight: 400;
+  white-space: pre-line;
+}
+  
+header, footer {
+  text-align: center;
+        margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+header {
+  font-size: 1.5em;
+	max-width: 100vmax;
+  	font-weight: 800;
+}
+
+footer {}
+
+hr {
+
+}
+
+/*  COPYRIGHT  */
+.copyright {
+  font-weight: 200;
+  -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+ /* letter-spacing: 0.6vw; */
+
+}
+
+.group {
+  display:inline-block;
+  width:100%;
+}
