@@ -38,6 +38,7 @@ section a {
   border-left:0.3em solid black;
   margin-right:1em;
   padding-left:0.1em;
+  max-height:1em;
 }
 
 section {
