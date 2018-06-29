@@ -24,6 +24,7 @@ html {
 }
 
 body {
+  color:gray;
   display:flex;
   flex-direction:column;
   height:100%;
@@ -35,10 +36,19 @@ body {
 }
 
 section a {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight:400;
   border-left:0.3em solid black;
   margin-right:1em;
   padding-left:0.1em;
   max-height:1em;
+}
+
+date{
+  font-family:Menlo, monospace;
+  font-weight:200;
+  color:#a0a0a0;
+  wrap:no-wrap;
 }
 
 section {
@@ -54,6 +64,7 @@ header {
 }
 
 footer {
+  color:black;
   position:relative;
   text-align:left;
   margin-top:0.5em;
