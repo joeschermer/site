@@ -1,6 +1,11 @@
-@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }
-@media all and (min-width: 600px) { section { font-size: 32px;} }
-@media all and (max-width: 599px) { section { font-size: 16px;} }
+/*@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }*/
+@media all and (min-width: 560px) { section { font-size: 32px;} }
+@media all and (max-width: 549px) { section { font-size: 16px;} }
+
+@media all and (min-width: 560px) { h { font-size: 2em;} }
+@media all and (max-width: 549px) { h { font-size: 1em;} }
+
+
 
 /*	DISABLE LINK DECORATION	*/
 a:link {color:black;text-decoration:none;}
@@ -23,7 +28,6 @@ section a:hover {background-color:black;color:white;}
 
 html {
   box-sizing:border-box;
-  font-size: 1em;
   height:100%;
 }
 
@@ -54,13 +58,13 @@ date{
 }
 
 section {
-  flex:1 0 auto;
+	flex:1 0 auto;
 }
 
 
 header {
   margin:0.25rem auto auto 0;
-  font-size: 1.5em;
+  font-size: 2em;
  font-weight:800;
 }
 
