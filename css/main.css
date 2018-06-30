@@ -48,27 +48,31 @@ date{
   font-family: Monaco, Menlo, monospace;
   font-weight:200;
   color:#b0b0b0;
-  wrap:no-wrap;
   margin-right:0.5em;
 }
 
 section {
   flex:1 0 auto;
 
-
 }
 
 header {
-  margin:0.25rem auto 0.25rem 0;
+  margin:0.25rem auto auto 0;
   font-size: 1.5em;
  font-weight:800;
 }
 
-header, footer {
+h {
 
 }
+
 
 footer {
  margin: 0.5em auto 0.5em 0;
   font-weight:200;
+}
+
+.headerimg img {
+width:100%;
+margin-bottom:-1em;
 }
