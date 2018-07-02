@@ -1,9 +1,11 @@
-/*@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }*/
-@media all and (min-width: 600px) { section { font-size: 32px;} }
-@media all and (max-width: 599px) { section { font-size: 16px;} }
+@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } } 
+/*@media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
 
-@media all and (min-width: 600px) { h { font-size: 2em;} }
-@media all and (max-width: 599px) { h { font-size: 1em;} }
+@media all and (min-width: 540px) { section { font-size: 32px;} }
+@media all and (max-width: 539px) { section { font-size: 16px;} }
+
+/*@media all and (min-width: 600px) { h { font-size: 2em;} }
+@media all and (max-width: 599px) { h { font-size: 1em;} }*/
 
 
 
