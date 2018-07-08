@@ -8,8 +8,6 @@
 /*@media all and (min-width: 600px) { h { font-size: 2em;} }
 @media all and (max-width: 599px) { h { font-size: 1em;} }*/
 
-
-
 /*	DISABLE LINK DECORATION	*/
 a:link {color:black;text-decoration:none;}
 a:visited {color:black;text-decoration:none;}
@@ -34,30 +32,21 @@ html {
   height:100%;
 }
 
+header {
+  margin:0.25rem auto auto 0;
+  font-size: 2em;
+ font-weight:800;
+}
+
 body {
 font-size:16px;
   display:flex;
   flex-direction:column;
   min-height:100vh;
   height:100%;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
  margin:auto 1em auto 1em;
   text-transform: uppercase;
-}
-
-section a {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-  margin-right:1em;
-  max-height:1em;
-}
-
-
-date{
-  display:inline-block;
-  font-family: Monaco, Menlo, monospace;
-  font-weight:200;
-  color:#b0b0b0;
-  margin-right:0.5em;
 }
 
 section {
@@ -65,11 +54,16 @@ section {
 	flex:1 0 auto;
 }
 
+section a {
+  margin-right:1em;
+}
 
-header {
-  margin:0.25rem auto auto 0;
-  font-size: 2em;
- font-weight:800;
+date{
+  display:inline-block;
+  font-family:Menlo, monospace;
+  font-weight:200;
+  color:#b0b0b0;
+  margin-right:0.5em;
 }
 
 footer {
