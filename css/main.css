@@ -2,11 +2,10 @@
 
 /*@media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
 
+/*
 @media all and (min-width: 540px) { section { font-size: 32px;} }
 @media all and (max-width: 539px) { section { font-size: 16px;} }
-
-/*@media all and (min-width: 600px) { h { font-size: 2em;} }
-@media all and (max-width: 599px) { h { font-size: 1em;} }*/
+*/
 
 /*	DISABLE LINK DECORATION	*/
 a:link {color:black;text-decoration:none;}
