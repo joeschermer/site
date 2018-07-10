@@ -1,10 +1,10 @@
 @media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }
 
 /*@media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-
+/*
 @media all and (min-width: 540px) { section { font-size: 32px;} }
 @media all and (max-width: 539px) { section { font-size: 16px;} }
-
+*/
 /*	DISABLE LINK DECORATION	*/
 a:link {color:inherit;text-decoration:none;}
 a:visited {color:inherit;text-decoration:none;}
@@ -54,6 +54,7 @@ font-size:16px;
 }
 
 section {
+	display:block;
 	line-height:1.5em;
 	flex:1 0 auto;
 }
@@ -62,13 +63,12 @@ section a {
   margin-right:1em;
 }
 
-
-date{
-  display:inline-block;
+date {
+	display:inline-block;
   font-family:Menlo, Consolas, monospace;
   font-weight:200;
   color:#a0a09e;
-  margin-right:0.5em;
+  margin:0 0.5em 0 auto;
 }
 
 footer {
@@ -80,4 +80,6 @@ footer {
 img {
 max-width:100%;
 height:auto;
+float:left;
+display:block;
 }
