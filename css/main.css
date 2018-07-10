@@ -1,18 +1,18 @@
 @media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }
 
 /*@media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-/*
+
 @media all and (min-width: 540px) { section { font-size: 32px;} }
 @media all and (max-width: 539px) { section { font-size: 16px;} }
-*/
+
 /*	DISABLE LINK DECORATION	*/
 a:link {color:inherit;text-decoration:none;}
 a:visited {color:inherit;text-decoration:none;}
 a:hover {color:inherit;text-decoration:none;}
-a:active {color:#inherit;text-decoration:none;}
+a:active {color:inherit;text-decoration:none;}
 a:focus {color:inherit;text-decoration:none;}
 
-section a:focus {color:inherit;text-decoration:underline;}
+section a:focus {text-decoration:underline;}
 @media (hover:hover) {
 section a:hover {text-decoration:underline;}
 }
@@ -74,12 +74,5 @@ date {
 footer {
  margin: 0.5em auto 0.5em 0;
   font-weight:200;
-  font-size:12px;
-}
 
-img {
-max-width:100%;
-height:auto;
-float:left;
-display:block;
 }
