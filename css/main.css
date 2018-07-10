@@ -35,6 +35,20 @@ header {
  font-weight:800;
 }
 
+.hover {
+font-weight:200;
+    display: none;
+}
+    
+a:hover + hover {
+font-weight:200;
+    display: block;
+}
+
+ticker {
+display:block;
+}
+
 body {
 background:#fbfbf8;
 font-size:16px;
@@ -73,8 +87,4 @@ footer {
 img {
 max-width:100%;
 height:auto;
-}
-
-ticker {
-display:block;
 }
