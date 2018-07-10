@@ -6,22 +6,22 @@
 @media all and (max-width: 539px) { section { font-size: 16px;} }
 
 /*	DISABLE LINK DECORATION	*/
-a:link {color:black;text-decoration:none;}
-a:visited {color:black;text-decoration:none;}
-a:hover {color:black;text-decoration:none;}
-a:active {color:black;text-decoration:none;}
+a:link {color:#292928;text-decoration:none;}
+a:visited {color:#292928;text-decoration:none;}
+a:hover {color:#292928;text-decoration:none;}
+a:active {color:#292928;text-decoration:none;}
 
 @media (hover:hover) {
-section a:hover {background-color:black;color:white;}
+section a:hover {background-color:#292928;color:#fbfbf8;}
 }
 
 ::selection {
-  background: #000000;
-  color: #ffffff;
+  background: #292928;
+  color: #fbfbf8;
 }
 ::-moz-selection {
-  background: #000000;
-  color: #ffffff;
+  background: #292928;
+  color: #fbfbf8;
 }
 
 html {
@@ -36,6 +36,7 @@ header {
 }
 
 body {
+background:#fbfbf8;
 font-size:16px;
   display:flex;
   flex-direction:column;
@@ -60,7 +61,7 @@ date{
   display:inline-block;
   font-family:Menlo, Consolas, monospace;
   font-weight:200;
-  color:#b0b0b0;
+  color:#a0a09e;
   margin-right:0.5em;
 }
 
