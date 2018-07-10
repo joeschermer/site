@@ -50,12 +50,13 @@ font-size:16px;
 }
 
 section {
-	line-height:1.3em;
+	line-height:1.5em;
 	flex:1 0 auto;
 }
 
 section a {
   margin-right:1em;
+  white-space:pre-line;
 }
 
 date{
@@ -64,6 +65,7 @@ date{
   font-weight:200;
   color:#b0b0b0;
   margin-right:0.5em;
+  
 }
 
 footer {
