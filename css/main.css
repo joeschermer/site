@@ -47,14 +47,13 @@ font-size:16px;
   height:100%;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
  margin:auto 1em auto 1em;
-text-transform: uppercase;
+
 }
 
 section {
 	line-height:1.5em;
 	flex:1 0 auto;
 	display:block;
-	text-transform: none;
 }
 
 section a {
@@ -72,4 +71,8 @@ footer {
  margin: 0.5em auto 0.5em 0;
   font-weight:200;
 
+}
+
+header footer date {
+	text-transform: uppercase;
 }
