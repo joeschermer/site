@@ -18,15 +18,18 @@ section a:hover {color:inherit;text-decoration:underline;}
 @media (hover:hover) {
 section a:hover {color:inherit;text-decoration:underline;}
 }
-
+ /*
 ::selection {
   background: #ceff00;
-  /*color: #fbfbf8;*/
+  color: #fbfbf8;
 }
+
 ::-moz-selection {
   background: #ceff00;
-  /*color: #fbfbf8;*/
+color: #fbfbf8;
 }
+*/
+
 
 html {
   box-sizing:border-box;
