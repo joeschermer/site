@@ -23,7 +23,6 @@ section a:hover {color:inherit;text-decoration:underline;}
   background: #ceff00;
   color: #fbfbf8;
 }
-
 ::-moz-selection {
   background: #ceff00;
 color: #fbfbf8;
@@ -67,6 +66,7 @@ margin-right:0.5em;
 }
 
 date {
+  font-size:14px;
 	display:inline-block;
   font-family:Menlo, Consolas, monospace;
   color:#a0a0a0;
