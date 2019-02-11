@@ -39,7 +39,7 @@ header {
   margin:0.25rem auto auto 0;
   font-size: 2em;
  font-weight:800;
-text-transform: uppercase;
+text-transform:uppercase;
 }
 
 body {
@@ -56,13 +56,10 @@ font-size:16px;
 }
 
 section {
+text-align:justify;
 	line-height:1.5em;
 	flex:1 0 auto;
 	display:block;
-}
-
-section a {
-margin-right:0.5em;
 }
 
 date {
@@ -70,24 +67,9 @@ date {
 	display:inline-block;
   font-family:Menlo, Consolas, monospace;
   color:#a0a0a0;
-  margin-right:1em;
-text-transform: uppercase;
-}
+text-transform:uppercase;
+margin-right:0.5em;
 
-.center {
-  text-align:center;
-}
-
-.left{
-  text-align:left;
-}
-
-.right{
-  text-align:right;
-}
-
-.justify{
-  text-align:justify;
 }
 
 footer {
