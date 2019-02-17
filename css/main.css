@@ -39,7 +39,6 @@ header {
   margin:0.25rem auto auto 0;
   font-size: 2em;
  font-weight:800;
-text-transform:uppercase;
 }
 
 body {
@@ -56,6 +55,7 @@ font-size:16px;
 }
 
 section {
+font-size:14px;
 text-align:justify;
 	line-height:1.5em;
 	flex:1 0 auto;
@@ -63,26 +63,21 @@ text-align:justify;
 }
 
 date {
-  font-size:16px;
 	display:inline-block;
   font-family:Menlo, Consolas, monospace;
   color:#a0a0a0;
-text-transform:uppercase;
-margin-right:0.5em;
+ 
 }
 
 citation {
-font-size:16px;
 font-family:Georgia, "Times New Roman", serif;
-display:inline-block;
-margin-left:0.5em;
 font-style:italic;
-vertical-align:top;
 }
 
 footer {
+font-size:12px;
  margin: 0.5em auto 0.5em 0;
   font-weight:200;
-text-transform: uppercase;
+  vertical-align:middle;
 
 }
