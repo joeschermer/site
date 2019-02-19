@@ -38,7 +38,7 @@ html {
 header {
   margin:0.25rem auto auto 0;
   font-size: 2em;
- font-weight:800;
+ font-weight:540;
 }
 
 body {
@@ -66,18 +66,14 @@ date {
 	display:inline-block;
   font-family:Menlo, Consolas, monospace;
   color:#a0a0a0;
- 
 }
 
 citation {
 font-family:Georgia, "Times New Roman", serif;
-font-style:italic;
 }
 
 footer {
-font-size:16px;
  margin: 0.5em auto 0.5em 0;
   font-weight:200;
   vertical-align:middle;
-
 }
