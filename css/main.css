@@ -39,12 +39,13 @@ header {
   margin:0.25rem auto auto 0;
   font-size: 2em;
  font-weight:540;
+ color:#333;
 }
 
 body {
 color:#000000;
 background:#ffffff;
-font-size:16px;
+font-size:12px;
   display:flex;
   flex-direction:column;
   min-height:100vh;
@@ -55,9 +56,8 @@ font-size:16px;
 }
 
 section {
-font-size:14px;
 text-align:justify;
-	line-height:1.5em;
+	line-height:1.25em;
 	flex:1 0 auto;
 	display:block;
 }
@@ -77,6 +77,7 @@ content:"\00a0";
 
 footer {
  margin: 0.5em auto 0.5em 0;
+ font-size:16px;
   font-weight:200;
   vertical-align:middle;
 }
