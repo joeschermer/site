@@ -1,163 +1,58 @@
-@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }
 
-/*     START FONTS     */
+/*     BEGIN FONTS     */
 
 @font-face {
-    font-family: 'FreeSans';
-    src: url('fonts/FreeSans.eot');
-    src: url('fonts/FreeSans.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSans.woff2') format('woff2'),
-        url('fonts/FreeSans.woff') format('woff'),
-        url('fonts/FreeSans.ttf') format('truetype'),
-        url('fonts/FreeSans.svg#FreeSans') format('svg');
+    font-family: 'freesans';
+    src: url('fonts/freesans.woff2') format('woff2'),
+         url('fonts/freesans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'FreeSerif';
-    src: url('fonts/FreeSerif.eot');
-    src: url('fonts/FreeSerif.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSerif.woff2') format('woff2'),
-        url('fonts/FreeSerif.woff') format('woff'),
-        url('fonts/FreeSerif.ttf') format('truetype'),
-        url('fonts/FreeSerif.svg#FreeSerif') format('svg');
+    font-family: 'freemono';
+    src: url('fonts/freemono.woff2') format('woff2'),
+         url('fonts/freemono.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'FreeMono';
-    src: url('fonts/FreeMono.eot');
-    src: url('fonts/FreeMono.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeMono.woff2') format('woff2'),
-        url('fonts/FreeMono.woff') format('woff'),
-        url('fonts/FreeMono.ttf') format('truetype'),
-        url('fonts/FreeMono.svg#FreeMono') format('svg');
+    font-family: 'freeserif';
+    src: url('fonts/freeserif.woff2') format('woff2'),
+         url('fonts/freeserif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+
+@font-face {
+    font-family: 'AkzidenzGrotesk';
+    src: url('fonts/AkzidenzGrotesk.woff2') format('woff2'),
+        url('fonts/AkzidenzGrotes.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-/*
 
 @font-face {
-    font-family: 'FreeSans';
-    src: url('fonts/FreeSansOblique.eot');
-    src: url('fonts/FreeSansOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSansOblique.woff2') format('woff2'),
-        url('fonts/FreeSansOblique.woff') format('woff'),
-        url('fonts/FreeSansOblique.ttf') format('truetype'),
-        url('fonts/FreeSansOblique.svg#FreeSansOblique') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'FreeSans';
-    src: url('fonts/FreeSansBold.eot');
-    src: url('fonts/FreeSansBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSansBold.woff2') format('woff2'),
-        url('fonts/FreeSansBold.woff') format('woff'),
-        url('fonts/FreeSansBold.ttf') format('truetype'),
-        url('fonts/FreeSansBold.svg#FreeSansBold') format('svg');
-    font-weight: bold;
+    font-family: 'AkzidenzGrotesk';
+    src: url('fonts/AkzidenzGroteskBE-MdEx.woff2') format('woff2'),
+        url('fonts/AkzidenzGroteskBE-MdEx.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'FreeSans';
-    src: url('fonts/FreeSansBoldOblique.eot');
-    src: url('fonts/FreeSansBoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSansBoldOblique.woff2') format('woff2'),
-        url('fonts/FreeSansBoldOblique.woff') format('woff'),
-        url('fonts/FreeSansBoldOblique.ttf') format('truetype'),
-        url('fonts/FreeSansBoldOblique.svg#FreeSansBoldOblique') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-*/
-
-/*
-
-@font-face {
-    font-family: 'FreeSerif';
-    src: url('fonts/FreeSerifItalic.eot');
-    src: url('fonts/FreeSerifItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSerifItalic.woff2') format('woff2'),
-        url('fonts/FreeSerifItalic.woff') format('woff'),
-        url('fonts/FreeSerifItalic.ttf') format('truetype'),
-        url('fonts/FreeSerifItalic.svg#FreeSerifItalic') format('svg');
+    font-family: 'AkzidenzGrotesk-Extended';
+    src: url('fonts/AkzidenzGroteskBE-Ex.woff2') format('woff2'),
+        url('fonts/AkzidenzGroteskBE-Ex.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
-}
-
-
-@font-face {
-    font-family: 'FreeSerif';
-    src: url('fonts/FreeSerifBold.eot');
-    src: url('fonts/FreeSerifBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSerifBold.woff2') format('woff2'),
-        url('fonts/FreeSerifBold.woff') format('woff'),
-        url('fonts/FreeSerifBold.ttf') format('truetype'),
-        url('fonts/FreeSerifBold.svg#FreeSerifBold') format('svg');
-    font-weight: bold;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'FreeSerif';
-    src: url('fonts/FreeSerifBoldItalic.eot');
-    src: url('fonts/FreeSerifBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeSerifBoldItalic.woff2') format('woff2'),
-        url('fonts/FreeSerifBoldItalic.woff') format('woff'),
-        url('fonts/FreeSerifBoldItalic.ttf') format('truetype'),
-        url('fonts/FreeSerifBoldItalic.svg#FreeSerifBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
 
-*/
 
-/*
-
-@font-face {
-    font-family: 'FreeMono';
-    src: url('fonts/FreeMonoOblique.eot');
-    src: url('fonts/FreeMonoOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeMonoOblique.woff2') format('woff2'),
-        url('fonts/FreeMonoOblique.woff') format('woff'),
-        url('fonts/FreeMonoOblique.ttf') format('truetype'),
-        url('fonts/FreeMonoOblique.svg#FreeMonoOblique') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'FreeMono';
-    src: url('fonts/FreeMonoBold.eot');
-    src: url('fonts/FreeMonoBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeMonoBold.woff2') format('woff2'),
-        url('fonts/FreeMonoBold.woff') format('woff'),
-        url('fonts/FreeMonoBold.ttf') format('truetype'),
-        url('fonts/FreeMonoBold.svg#FreeMonoBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'FreeMono';
-    src: url('fonts/FreeMonoBoldOblique.eot');
-    src: url('fonts/FreeMonoBoldOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FreeMonoBoldOblique.woff2') format('woff2'),
-        url('fonts/FreeMonoBoldOblique.woff') format('woff'),
-        url('fonts/FreeMonoBoldOblique.ttf') format('truetype'),
-        url('fonts/FreeMonoBoldOblique.svg#FreeMonoBoldOblique') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-*/
 
 /*     END FONTS     */
 
@@ -167,6 +62,8 @@
 @media all and (min-width: 540px) { section { font-size: 32px;} }
 @media all and (max-width: 539px) { section { font-size: 16px;} }
 */
+
+@media screen and (min-width: 15em) { h { font-size: calc( 1.75em + (4.75 - 1.75) * (100vw - 25em) / (75 - 15) ); } }
 
 /*	DISABLE LINK DECORATION	*/
 a:link {color:inherit;text-decoration:none;}
@@ -190,6 +87,7 @@ section a:hover {color:inherit;text-decoration:underline;}
 }
 */
 
+/*     BEGIN MAIN CONTENT     */
 
 html {
 	box-sizing:border-box;
@@ -197,10 +95,21 @@ html {
 }
 
 header {
-	margin:0.25rem auto auto 0;
+	margin:0.5rem auto auto 0;
 	font-size: 2em;
 	font-weight:540;
 	color:#333;
+	font-family:AkzidenzGrotesk-Extended, Helvetica, sans-serif;
+	vertical-align:middle;
+}
+
+footer {
+	margin: 0.5em auto 0.5em 0;
+	font-size:14px;
+	font-weight:200;
+	color:#333;
+	vertical-align:middle;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body {
@@ -211,7 +120,7 @@ body {
 	flex-direction:column;
 	min-height:100vh;
 	height:100%;
-	font-family:FreeSans/*, "Helvetica Neue", Helvetica, Arial, sans-serif*/;
+	font-family:freesans, sans-serif;
 	margin:auto 1em auto 1em;
 }
 
@@ -224,19 +133,13 @@ section {
 
 date {
 	display:inline-block;
-	font-family:FreeMono/*, Menlo, Consolas, monospace*/;
+	font-family:freemono, monospace;
 	color:#a0a0a0;
+	line-height:1.25em;
 }
 
 citation {
-	font-family:FreeSerif/*, Georgia, "Times New Roman", serif*/;
+	font-family:freeserif, serif;
 }
 
 citation::after {content:"\00a0";}
-
-footer {
-	margin: 0.5em auto 0.5em 0;
-	font-size:14px;
-	font-weight:200;
-	vertical-align:middle;
-}
