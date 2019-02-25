@@ -34,15 +34,6 @@
     font-style: normal;
 }
 
-
-@font-face {
-    font-family: 'AkzidenzGrotesk';
-    src: url('fonts/AkzidenzGroteskBE-MdEx.woff2') format('woff2'),
-        url('fonts/AkzidenzGroteskBE-MdEx.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'AkzidenzGrotesk-Extended';
     src: url('fonts/AkzidenzGroteskBE-Ex.woff2') format('woff2'),
