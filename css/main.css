@@ -42,9 +42,6 @@
     font-style: normal;
 }
 
-
-
-
 /*     END FONTS     */
 
 /* @media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
@@ -126,7 +123,6 @@ date {
 	display:inline-block;
 	font-family:freemono, monospace;
 	color:#a0a0a0;
-	line-height:1.25em;
 }
 
 citation {
