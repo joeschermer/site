@@ -118,6 +118,7 @@ footer {
 }
 
 section {
+	font-size:12px;
 	line-height:1.25em;
 	text-align:justify;
 	flex:1 0 auto;
@@ -126,13 +127,14 @@ section {
 
 date {
 	display:inline-block;
-	height:18px;
-	font-size:1.25em;
+	height:auto;
+	font-size:12px;
 	font-family:monospace;
 	color:#aaa;
 }
 
 citation {
+	font-size:12px;
 	font-family:serif;
 }
 
