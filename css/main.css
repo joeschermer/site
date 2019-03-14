@@ -1,6 +1,8 @@
 
 /*     BEGIN FONTS     */
 
+/*
+
 @font-face {
     font-family: 'freesans';
     src: url('fonts/freesans.woff2') format('woff2'),
@@ -42,6 +44,8 @@
     font-style: normal;
 }
 
+*/
+
 /*     END FONTS     */
 
 /* @media all and font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
@@ -82,12 +86,23 @@ html {
 	height:100%;
 }
 
+body {
+	color:#000000;
+	background:#ffffff;
+	font-size:12px;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+	height:100%;
+	font-family:sans-serif;
+	margin:auto 1em auto 1em;
+}
+
 header {
 	margin:0.5rem auto auto 0;
 	font-size: 2em;
 	font-weight:540;
 	color:#333;
-	font-family:AkzidenzGrotesk-Extended, Helvetica, sans-serif;
 	vertical-align:middle;
 }
 
@@ -97,19 +112,6 @@ footer {
 	font-weight:200;
 	color:#333;
 	vertical-align:middle;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-}
-
-body {
-	color:#000000;
-	background:#ffffff;
-	font-size:12px;
-	display:flex;
-	flex-direction:column;
-	min-height:100vh;
-	height:100%;
-	font-family:freesans, sans-serif;
-	margin:auto 1em auto 1em;
 }
 
 section {
@@ -121,12 +123,12 @@ section {
 
 date {
 	display:inline-block;
-	font-family:freemono, monospace;
+	font-family:monospace;
 	color:#a0a0a0;
 }
 
 citation {
-	font-family:freeserif, serif;
+	font-family:serif;
 }
 
 citation::after {content:"\00a0";}
