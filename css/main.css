@@ -104,9 +104,8 @@ header, footer, citation {
 	color:#555;
 }
 
-date, citation, citation::after {
+date, citation, citation::after{
 	font-size:12px;
-	display:inline-block;
 	line-height:1.2em;
 }
 
@@ -120,13 +119,12 @@ header {
 footer {
 	margin: 0.5em auto 0.5em 0;
 	font-weight:200;
-	font-size:16px;
+	font-size:14px;
 	vertical-align:middle;
 }
 
 section {
 	font-family:"Times", serif;
-	
 	line-height:1.2em;
 	text-align:justify;
 	flex:1 0 auto;
@@ -135,6 +133,8 @@ section {
 }
 
 date {
+
+	display:inline-block;
 	font-family:monaco, monospace;
 	color:#aaa;
 }
