@@ -96,12 +96,18 @@ body {
 	flex-direction:column;
 	min-height:100vh;
 	height:100%;
-	font-family:sans-serif;
 	margin:auto 1em auto 1em;
 }
 
-header, footer {
-	color:#444
+header, footer, citation {
+	font-family:Arial, sans-serif;
+	color:#555;
+}
+
+date, citation, citation::after {
+	font-size:12px;
+	display:inline-block;
+	line-height:1.2em;
 }
 
 header {
@@ -118,24 +124,21 @@ footer {
 }
 
 section {
-	font-size:12px;
-	line-height:1.25em;
+	font-family:"Times", serif;
+	
+	line-height:1.2em;
 	text-align:justify;
 	flex:1 0 auto;
 	display:block;
+	font-size:14px;
 }
 
 date {
-	display:inline-block;
-	height:auto;
-	font-size:12px;
-	font-family:monospace;
+	font-family:monaco, monospace;
 	color:#aaa;
 }
 
 citation {
-	font-size:12px;
-	font-family:serif;
 }
 
-citation::after {content:"\00a0";}
+citation::after {content:"\2002";}
