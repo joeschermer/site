@@ -96,7 +96,7 @@ html {
 }
 
 body {
-	color:#000;
+	color:#555;
 	display:flex;
 	flex-direction:column;
 	min-height:100vh;
@@ -107,6 +107,10 @@ body {
 header, footer, citation {
 	font-family:Arial, sans-serif;
 	color:#555;
+}
+
+citation {
+	color:#aaa;	
 }
 
 date, citation, citation::after{
@@ -148,10 +152,9 @@ section {
 }
 
 date {
-
 	display:inline-block;
 	font-family:monaco, monospace;
-	color:#aaa;
+	color:#000;
 }
 
 citation {
